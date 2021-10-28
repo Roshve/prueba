@@ -4,6 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
+    "storybook": "npx nuxt storybook",
+    "build-storybook": "npm run build-storybook -- -o ./path/to/build",
+    "chromatic": "npx chromatic --project-token=5149ed6645d3",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -28,6 +31,7 @@
     "@vue/test-utils": "^1.2.1",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^27.0.5",
+    "chromatic": "^6.0.5",
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^2.0.0",
