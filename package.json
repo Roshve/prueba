@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nuxt",
     "storybook": "npx nuxt storybook",
-    "build-storybook": "npm run build-storybook -- -o ./path/to/build",
+    "build-storybook": "npx nuxt storybook build -- -o ./path/to/build",
     "chromatic": "npx chromatic --project-token=5149ed6645d3",
     "build": "nuxt build",
     "start": "nuxt start",
