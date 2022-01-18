@@ -39,7 +39,7 @@ export default {
     // Doc: https://github.com/nuxt/postcss8
     '@nuxt/postcss8',
   ],
-  
+
   storybook: {
     // Options
     port: 4000,
@@ -48,12 +48,9 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
   ],
-
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
