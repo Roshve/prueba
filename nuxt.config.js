@@ -1,7 +1,10 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
-
+  
+  // 
+  target: "static",
+  
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'prueba',
@@ -40,6 +43,7 @@ export default {
     // Doc: https://github.com/nuxt/postcss8
     '@nuxt/postcss8',
   ],
+
 
   storybook: {
     // Options

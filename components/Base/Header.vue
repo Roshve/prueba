@@ -1,6 +1,8 @@
 <template>
   <header>
     <atom-search />
+    <NuxtLink to="/">Home page</NuxtLink>
+    <NuxtLink to="/filter">Filter page</NuxtLink>
   </header>
 </template>
 <script>

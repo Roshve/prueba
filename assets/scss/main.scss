@@ -6,3 +6,17 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+.nuxt-link-active {
+  color: #39ff39;
+}
+
+/* Transitions page */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
